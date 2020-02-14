@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Hello Jin!</title>
-</head>
+<html lang="en" >
+    <head>
+        <meta charset="GB2312" />
+        <title>星际争霸游戏</title>
+        <!-- 添加样式表 -->
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
 
-<body>
-  <h1>Hello my world!</h1>
-  <h2>Hello my github page</h2>
-</body>
+        <!-- 添加scripts 脚本代码-->
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h2>星际争霸</h2>
+        </header>
+
+        <div class="container">
+            <canvas id="scene" width="700" height="700" tabindex="1"></canvas>
+        </div>
+    </body>
 </html>
